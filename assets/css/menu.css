@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/shape-1.png);
+    animation: shiver 3s infinite;
+  }
+  
+  @keyframes shiver {
+    0% {
+      background-position: 0 0;
+    }
+    25% {
+      background-position: 1% 1%;
+    }
+    50% {
+      background-position: 0 1%;
+    }
+    75% {
+      background-position: 1% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
